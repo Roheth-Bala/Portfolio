@@ -68,13 +68,13 @@ export default function Home() {
                 </Link>
               </Button>
               <Button variant="outline" asChild>
-                <Link href="https://github.com/yourusername" target="_blank">
+                <Link href="https://github.com/Roheth-Bala" target="_blank">
                   <Github className="mr-2 h-4 w-4" />
                   GitHub
                 </Link>
               </Button>
               <Button variant="outline" asChild>
-                <Link href="https://linkedin.com/in/yourusername" target="_blank">
+                <Link href="https://www.linkedin.com/in/roheth-bala-47574520a/" target="_blank">
                   <Linkedin className="mr-2 h-4 w-4" />
                   LinkedIn
                 </Link>
@@ -378,18 +378,18 @@ export default function Home() {
               <CardContent className="space-y-4">
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-muted-foreground" />
-                  <p>your.email@example.com</p>
+                  <p>rohethb@gmail.com</p>
                 </div>
                 <div className="flex items-center gap-3">
                   <Linkedin className="h-5 w-5 text-muted-foreground" />
                   <Link href="https://linkedin.com/in/yourusername" target="_blank" className="hover:underline">
-                    linkedin.com/in/yourusername
+                  linkedin.com/in/roheth-bala-47574520a/
                   </Link>
                 </div>
                 <div className="flex items-center gap-3">
                   <Github className="h-5 w-5 text-muted-foreground" />
-                  <Link href="https://github.com/yourusername" target="_blank" className="hover:underline">
-                    github.com/yourusername
+                  <Link href="https://github.com/Roheth-Bala" target="_blank" className="hover:underline">
+                  github.com/Roheth-Bala
                   </Link>
                 </div>
               </CardContent>
@@ -459,20 +459,20 @@ export default function Home() {
           <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
           <div className="flex items-center gap-4 mt-4 md:mt-0">
             <Link
-              href="https://github.com/yourusername"
+              href="https://github.com/Roheth-Bala"
               target="_blank"
               className="text-muted-foreground hover:text-foreground"
             >
               <Github className="h-5 w-5" />
             </Link>
             <Link
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/roheth-bala-47574520a/"
               target="_blank"
               className="text-muted-foreground hover:text-foreground"
             >
               <Linkedin className="h-5 w-5" />
             </Link>
-            <Link href="mailto:your.email@example.com" className="text-muted-foreground hover:text-foreground">
+            <Link href="mailto:rohethb@gmail.com" className="text-muted-foreground hover:text-foreground">
               <Mail className="h-5 w-5" />
             </Link>
           </div>
