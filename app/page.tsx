@@ -219,21 +219,21 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <ProjectCard
-                title="Fake News Detection using NLP"
-                description="Built a transformer-based model to classify fake news with 92% accuracy. Deployed as a web app using Flask."
+                title="T20I Cricket Performance Dashboard"
+                description="This dashboard analyzes T20 International cricket performance data from January 2019 to January 2025, focusing on players from the top 10 T20I teams."
                 image="/placeholder.svg?height=200&width=300"
-                tags={["Python", "BERT", "Flask", "NLP"]}
-                githubUrl="https://github.com/yourusername/fake-news-detection"
-                demoUrl="https://demo-link.com"
+                tags={["D3", "React", "Data Visualization"]}
+                githubUrl="https://github.com/suryaansh2002/CS5346-Project"
+                demoUrl="https://cs-5346-project.vercel.app/"
               />
 
               <ProjectCard
-                title="Real-time Object Detection"
-                description="Implemented YOLOv5 for real-time object detection. Optimized for edge devices with TensorFlow Lite."
+                title="Poker AI: RichieRich"
+                description="RichieRich is an advanced AI-powered No-Limit Texas Hold'em Poker game. It uses cutting-edge algorithms like Counterfactual Regret Minimization (CFR), Monte Carlo Markov Chain (MCMC) sampling, and Deep Q-Networks (DQN)"
                 image="/placeholder.svg?height=200&width=300"
-                tags={["Python", "YOLOv5", "TensorFlow", "Computer Vision"]}
-                githubUrl="https://github.com/yourusername/object-detection"
-                demoUrl="https://demo-link.com"
+                tags={["Python", "Reinforcement Learning"]}
+                githubUrl="https://github.com/Rishbah-76/RichieRich/tree/main"
+                //demoUrl="https://demo-link.com"
               />
             </div>
           </div>
