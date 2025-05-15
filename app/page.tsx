@@ -17,7 +17,7 @@ export default function Home() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
             <Link href="/" className="font-bold text-xl">
-              AI.Portfolio
+              RB
             </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6">
@@ -170,28 +170,13 @@ export default function Home() {
 
           <div className="space-y-6">
             <ExperienceCard
-              title="Software Developer"
-              company="XYZ Corporation"
-              period="2021 - 2023"
+              title="Member of Technical Staff"
+              company="Zoho Corporation, Chennai, India"
+              period="Feb 2022 - June 2024"
               description="Developed and deployed machine learning models for predictive analytics. Optimized backend systems using Python and Docker, improving efficiency by 30%. Collaborated with data scientists to integrate AI models into production."
               skills={["Python", "Docker", "Machine Learning", "API Development", "CI/CD"]}
             />
 
-            <ExperienceCard
-              title="AI Research Intern"
-              company="AI Research Lab"
-              period="Summer 2020"
-              description="Conducted research on natural language processing techniques. Implemented and evaluated various transformer-based models. Co-authored a research paper on sentiment analysis techniques."
-              skills={["NLP", "PyTorch", "BERT", "Research", "Academic Writing"]}
-            />
-
-            <ExperienceCard
-              title="Software Engineering Intern"
-              company="Tech Startup"
-              period="Summer 2019"
-              description="Developed features for a web application using React and Node.js. Implemented RESTful APIs and integrated with third-party services. Participated in agile development processes."
-              skills={["JavaScript", "React", "Node.js", "REST APIs", "Agile"]}
-            />
           </div>
         </section>
 
@@ -272,94 +257,6 @@ export default function Home() {
                 demoUrl="https://demo-link.com"
               />
             </div>
-          </div>
-        </section>
-
-        {/* Certifications Section */}
-        <section id="certifications" className="py-12 space-y-8">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tight">Certifications & Courses</h2>
-            <p className="text-muted-foreground">Continuous learning and professional development</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <Card>
-              <CardHeader>
-                <CardTitle>Deep Learning Specialization</CardTitle>
-                <CardDescription>DeepLearning.AI, Coursera</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Completed 5-course specialization covering neural networks, CNNs, RNNs, and more.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2022</Badge>
-              </CardFooter>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Machine Learning Engineer Nanodegree</CardTitle>
-                <CardDescription>Udacity</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Comprehensive program covering ML algorithms, deployment, and MLOps.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2021</Badge>
-              </CardFooter>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>TensorFlow Developer Certificate</CardTitle>
-                <CardDescription>Google</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Professional certification for building TensorFlow models for various ML tasks.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2021</Badge>
-              </CardFooter>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>AWS Certified Machine Learning - Specialty</CardTitle>
-                <CardDescription>Amazon Web Services</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Certification for designing, implementing, and maintaining ML solutions on AWS.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2022</Badge>
-              </CardFooter>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Natural Language Processing Specialization</CardTitle>
-                <CardDescription>DeepLearning.AI, Coursera</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>4-course specialization covering modern NLP techniques and applications.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2021</Badge>
-              </CardFooter>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <CardTitle>Full Stack Web Development</CardTitle>
-                <CardDescription>The Odin Project</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p>Comprehensive curriculum covering front-end and back-end web development.</p>
-              </CardContent>
-              <CardFooter>
-                <Badge>2020</Badge>
-              </CardFooter>
-            </Card>
           </div>
         </section>
 
@@ -453,31 +350,6 @@ export default function Home() {
           </div>
         </section>
       </main>
-
-      <footer className="border-t">
-        <div className="container py-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
-          <div className="flex items-center gap-4 mt-4 md:mt-0">
-            <Link
-              href="https://github.com/Roheth-Bala"
-              target="_blank"
-              className="text-muted-foreground hover:text-foreground"
-            >
-              <Github className="h-5 w-5" />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/roheth-bala-47574520a/"
-              target="_blank"
-              className="text-muted-foreground hover:text-foreground"
-            >
-              <Linkedin className="h-5 w-5" />
-            </Link>
-            <Link href="mailto:rohethb@gmail.com" className="text-muted-foreground hover:text-foreground">
-              <Mail className="h-5 w-5" />
-            </Link>
-          </div>
-        </div>
-      </footer>
     </div>
   )
 }
